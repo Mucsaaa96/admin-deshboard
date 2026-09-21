@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+}
+
+aside {
+    background-color: yellowgreen;
+    grid-row: 1 / 3;
+}
+
+main {
+    background-color: palevioletred;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+}

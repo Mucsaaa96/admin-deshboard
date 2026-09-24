@@ -13,6 +13,36 @@
 header {
     background-color: aqua;
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+}
+
+h3 {
+    margin: 1rem 2rem;
+}
+
+h3 span {
+    display: block;
+}
+
+header form {
+    text-align: center;
+    margin: 1rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input {
+    width: 80%;
+}
+
+header h2 {
+    text-align: end;
+    margin: 1rem;
 }
 
 aside {

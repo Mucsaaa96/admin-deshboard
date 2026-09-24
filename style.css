@@ -38,11 +38,13 @@ header ul {
 
 input {
     width: 80%;
+    margin: 1rem;
 }
 
 header h2 {
     text-align: end;
     margin: 1rem;
+    align-self: center;
 }
 
 aside {
@@ -106,3 +108,8 @@ ul li {
 .announcements > * {
     margin: 1rem;
 }
+
+.trending > h2 {
+    margin: 1rem;
+}
+

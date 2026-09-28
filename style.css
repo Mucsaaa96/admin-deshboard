@@ -89,16 +89,12 @@ ul {
     margin-bottom: 4rem;
 }
 
-/*.dashboard-icon {
-    height: 2rem;
-    width: auto;
-}*/
 
 .margin-top {
     margin-top: 4rem;
 }
 
-ul li {
+li {
     margin: 2rem;
     position: relative;
 }

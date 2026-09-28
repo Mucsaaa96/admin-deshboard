@@ -89,10 +89,10 @@ ul {
     margin-bottom: 4rem;
 }
 
-.dashboard-icon {
+/*.dashboard-icon {
     height: 2rem;
     width: auto;
-}
+}*/
 
 .margin-top {
     margin-top: 4rem;
@@ -140,5 +140,7 @@ ul li {
 img {
     position: absolute;
     left: -3rem;
+    height: 2rem;
+    width: auto;
 }
 

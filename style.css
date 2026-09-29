@@ -60,6 +60,12 @@ header button {
     box-shadow: 5px 5px 10px black;
 }
 
+header button:hover {
+    color: black;
+    cursor: pointer;
+    background: rgb(101, 107, 10);
+}
+
 input {
     width: 80%;
     margin: 1rem;
@@ -120,6 +126,7 @@ header h2 {
     filter: drop-shadow(4px 4px 5px black);
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
 aside {

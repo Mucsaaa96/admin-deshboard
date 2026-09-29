@@ -28,6 +28,8 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2rem;
+    box-shadow: 0 5px 7px gray;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -46,11 +48,25 @@ header form {
 header ul {
     display: flex;
     justify-content: flex-end;
+    gap: 50px;
+}
+
+header button {
+    border-radius: 20px;
+    padding:  1rem 2rem;
+    color: white;
+    background: linear-gradient(rgb(26, 109, 98),
+                                rgb(213, 235, 232)) ;
+    box-shadow: 5px 5px 10px black;
 }
 
 input {
     width: 80%;
     margin: 1rem;
+    height: 2rem;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    cursor: pointer;
 }
 
 label {
@@ -62,11 +78,48 @@ label {
     left: -2rem;
     top: 50%;
     transform: translateY(-50%);
+    filter: drop-shadow(5px 5px 5px black);
+    cursor: pointer;
 }
+
 header h2 {
     text-align: end;
-    margin: 1rem;
+    margin: 1rem 2rem 1rem 0;
     align-self: center;
+}
+
+.profile {
+    position: relative;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.morgan {
+    position: relative;
+    left: -1rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.welcome {
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.welcome > .morgan {
+    height: 6rem;
+    width: 6rem;
+    left: 1rem;
+    align-self: center;
+}
+
+.bell-icon {
+    left: 45rem;
+    filter: drop-shadow(4px 4px 5px black);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 aside {
@@ -153,8 +206,4 @@ img {
     left: -3rem;
     height: 2rem;
     width: auto;
-}
-
-img:hover {
-    fill: black;
 }

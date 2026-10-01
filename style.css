@@ -247,14 +247,37 @@ li:hover {
     margin: 1rem;
 }
 
-.announcements
-
 .trending > h2 {
     margin: 1rem;
 }
 
 .trending span {
     display: block;
+}
+
+.trending ul {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 1rem;
+    padding-left: 5rem;
+}
+
+.trending li:hover {
+    cursor: pointer;
+    color: rgb(101, 107, 10);
+}
+
+.profile-image {
+    position: relative;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: inline;
+    left: -5rem;
 }
 
 img {

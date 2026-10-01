@@ -204,6 +204,8 @@ li:hover {
 
 .card-icons {
     align-self: flex-end ;
+    display: flex;
+    gap: 25px;
 }
 
 .card-icons > img {

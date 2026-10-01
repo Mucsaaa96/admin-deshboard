@@ -201,6 +201,11 @@ li:hover {
     justify-content: space-between;
 }
 
+.card-text:hover {
+    cursor: pointer;
+    color: rgb(101, 107, 10);
+}
+
 .card-icons {
     align-self: flex-end ;
     display: flex;

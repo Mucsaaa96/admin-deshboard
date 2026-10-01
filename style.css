@@ -182,12 +182,21 @@ li:hover {
     gap: 15px;
 }
 
-.projects * {
+.projects > * {
     margin: 1rem;
 } 
 
 .projects > h2 {
     grid-column: 1 / -1;
+}
+
+.projects > article {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 6px solid rgb(101, 107, 10);
+    box-shadow: 5px 5px 10px gray;
+    max-height: 300px;
 }
 
 .announcements {
@@ -214,3 +223,4 @@ img {
     height: 2rem;
     width: auto;
 }
+

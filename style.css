@@ -197,6 +197,17 @@ li:hover {
     border-left: 6px solid rgb(101, 107, 10);
     box-shadow: 5px 5px 10px gray;
     max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-icons {
+    align-self: flex-end ;
+}
+
+.card-icons > img {
+    position: static;
 }
 
 .announcements {

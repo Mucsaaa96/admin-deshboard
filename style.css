@@ -140,7 +140,6 @@ main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    gap: 15px;
 }
 
 ul {
@@ -212,15 +211,38 @@ li:hover {
     position: static;
 }
 
-.announcements {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.card-icons > img:hover {
+    cursor: pointer;
+    filter: drop-shadow(4px 4px 4px green);
 }
 
-.announcements > * {
+.announcements-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin: 2rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.announcements-contents > *:hover {
+    cursor: pointer;
+    color: rgb(101, 107, 10);
+}
+
+.border {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1rem 0;
+}
+
+.announcements > h2 {
     margin: 1rem;
 }
+
+.announcements
 
 .trending > h2 {
     margin: 1rem;
